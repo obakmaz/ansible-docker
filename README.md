@@ -106,3 +106,8 @@ You now have fully setup 3 Docker containers using Ansible and running your proj
 - The objective of this project is not teach how to provision Docker containers using Ansible. As stated by Michael DeHaan, creator of Ansible, Docker containers typically have a single responsibility and, thus, much less configuration. So, the overhead of having a complete Ansible configuration to provision them are unnecessary.
 
 - This project uses Docker for convenience. This way, we don't have to bother about starting Amazon servers only for testing purposes. However, since the containers used here behave exactly like a plain machine with SSHD installed, the very same setup should work on any cloud or bare-metal architecture.
+
+- AFTER INSTALLATION, you may edit the ansible instance hosts file to add these inctances :
+  ansible-docker_server_1   172.19.0.2
+  ansible-docker_server_2   172.19.0.3
+  ansible-docker_server_3   172.19.0.4
