@@ -112,4 +112,10 @@ You now have fully setup 3 Docker containers using Ansible and running your proj
     ansible-docker_server_1   172.19.0.2
     ansible-docker_server_2   172.19.0.3
     ansible-docker_server_3   172.19.0.4
-    
+    So:
+
+```bash
+$ ansible-docker_server_1   172.19.0.2
+$ ansible-docker_server_1   172.19.0.2
+$ ansible-docker_server_1   172.19.0.2
+```
